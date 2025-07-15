@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				tedx: {
+					red: 'hsl(var(--tedx-red))',
+					'red-dark': 'hsl(var(--tedx-red-dark))',
+					black: 'hsl(var(--tedx-black))',
+					grey: 'hsl(var(--tedx-grey))',
+					'light-grey': 'hsl(var(--tedx-light-grey))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
