@@ -14,7 +14,7 @@ const OrganisingBody = () => {
           <img
             src={src}
             alt={`${altBase} ${i + 1}`}
-            className="w-full h-48 object-cover"
+            className="w-full h-full object-cover"
             loading="lazy"
           />
         </div>
