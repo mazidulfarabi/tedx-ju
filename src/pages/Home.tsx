@@ -42,7 +42,7 @@ const Home = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-tedx-black px-8 py-4 text-lg"
+              className="border-white bg-white text-tedx-black hover:bg-white/90 px-8 py-4 text-lg"
               asChild
             >
               <Link to="/about">Learn More</Link>

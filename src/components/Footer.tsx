@@ -11,10 +11,10 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/ebb06ba2-a739-4370-ad89-d481510e7bad.png" 
               alt="TEDx Jahangirnagar University" 
-              className="h-12 w-auto mb-4 filter brightness-0 invert"
+              className="h-12 w-auto mb-4"
             />
             <p className="text-gray-300 mb-4 max-w-md">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+              TEDx JU is an independently organized event at Jahangirnagar University, led by volunteers to share ideas worth spreading.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-tedx-red transition-colors">
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-          <p>&copy; 2024 TEDx Jahangirnagar University. All rights reserved.</p>
+          <p>&copy; 2025 TEDx Jahangirnagar University. All rights reserved.</p>
           <p className="mt-2 text-sm">
             This independent TEDx event is operated under license from TED.
           </p>

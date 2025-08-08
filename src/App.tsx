@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import OrganisingBody from "./pages/OrganisingBody";
 import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import Registration from "./pages/Registration";
 import NotFound from "./pages/NotFound";
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/organising-body" element={<OrganisingBody />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

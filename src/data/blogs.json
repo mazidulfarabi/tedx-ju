@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "slug": "announcing-tedx-ju-2025",
+      "title": "Announcing TEDx Jahangirnagar University 2025",
+      "excerpt": "We’re bringing TEDx back to Jahangirnagar University with a day of ideas, connection, and inspiration.",
+      "date": "March 15, 2025",
+      "author": "TEDx JU Team",
+      "category": "Event Updates",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1200&h=800&fit=crop",
+      "readTime": "5 min read",
+      "content": [
+        "TEDx Jahangirnagar University is an independently organized TED event created by a team of JU volunteers. Our mission is to spotlight bold, original ideas from Bangladesh and beyond.",
+        "The 2025 edition will feature live talks, performances, and conversations that spark curiosity and action. Whether you’re a student, alumnus, researcher, or creator — there’s a place for your ideas at TEDx JU.",
+        "Follow our channels for speaker announcements, theme reveal, and registration details. See you on campus!"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "speaker-spotlight-voices-shaping-tomorrow",
+      "title": "Speaker Spotlight: Voices Shaping Tomorrow",
+      "excerpt": "A first look at the kinds of voices and stories we’re curating for TEDx JU 2025.",
+      "date": "March 10, 2025",
+      "author": "Curations Team",
+      "category": "Speaker Spotlight",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=800&fit=crop",
+      "readTime": "3 min read",
+      "content": [
+        "From science and social innovation to culture and creative arts, TEDx JU brings together a wide range of perspectives.",
+        "Our curation focuses on ideas with clarity, novelty, and relevance to our community.",
+        "Stay tuned for speaker reveals and stories behind the talks."
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "behind-the-scenes-building-tedx-ju",
+      "title": "Behind the Scenes: Building TEDx JU",
+      "excerpt": "How our all‑volunteer team turns an idea into a full TEDx experience.",
+      "date": "March 5, 2025",
+      "author": "Organizing Team",
+      "category": "Behind the Scenes",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&h=800&fit=crop",
+      "readTime": "7 min read",
+      "content": [
+        "Months of planning go into venue design, storytelling, partnerships, and technology.",
+        "Every detail — from stage lighting to on‑site experience — is crafted to elevate ideas worth spreading.",
+        "If you love building experiences, consider volunteering with us."
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "our-community-our-stories",
+      "title": "Our Community, Our Stories",
+      "excerpt": "Why TEDx matters at Jahangirnagar University and beyond.",
+      "date": "February 28, 2025",
+      "author": "Community Team",
+      "category": "Community",
+      "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=1200&h=800&fit=crop",
+      "readTime": "4 min read",
+      "content": [
+        "TEDx JU is where students, faculty, alumni, and neighbors meet to explore ideas that move us forward.",
+        "It’s more than an event — it’s a platform for meaningful dialogue and collaboration.",
+        "Bring your curiosity, and invite a friend." 
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "how-to-prepare-for-a-tedx-talk",
+      "title": "How to Prepare for a TEDx Talk",
+      "excerpt": "Practical tips for framing, refining, and delivering your idea worth spreading.",
+      "date": "February 20, 2025",
+      "author": "Speaker Coaching",
+      "category": "Insights",
+      "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=1200&h=800&fit=crop",
+      "readTime": "6 min read",
+      "content": [
+        "Start with a single, clear idea. Focus your story around why it matters now.",
+        "Use concrete examples, avoid jargon, and practice with honest feedback.",
+        "Rehearse for timing and attention — simplicity is powerful."
+      ]
+    }
+  ]
+}

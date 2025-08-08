@@ -20,7 +20,7 @@ const Registration = () => {
           </p>
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur rounded-full px-6 py-3">
             <Clock className="h-5 w-5" />
-            <span className="font-medium">Registration opens in 2024</span>
+            <span className="font-medium">Registration opens in 2025</span>
           </div>
         </div>
       </section>
