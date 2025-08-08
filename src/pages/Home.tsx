@@ -27,7 +27,7 @@ const Home = () => {
             <span className="text-tedx-red block">Spreading</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            TEDx JU brings a day of talks, performances, and ideas at Jahangirnagar University — curated by volunteers for our community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -57,7 +57,7 @@ const Home = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-tedx-black mb-4">Event Highlights</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Discover the theme, venue, and what to expect at TEDx Jahangirnagar University 2025.
             </p>
           </div>
 
@@ -67,7 +67,7 @@ const Home = () => {
                 <Calendar className="h-12 w-12 text-tedx-red mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Date & Time</h3>
                 <p className="text-muted-foreground">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
+                  Season 2025 — date announcement coming soon.
                 </p>
               </CardContent>
             </Card>
@@ -87,7 +87,7 @@ const Home = () => {
                 <Users className="h-12 w-12 text-tedx-red mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Speakers</h3>
                 <p className="text-muted-foreground">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis nostrud exercitation.
+                  A curated lineup of thinkers, makers, and change‑drivers.
                 </p>
               </CardContent>
             </Card>
@@ -104,10 +104,10 @@ const Home = () => {
                 What is TEDx?
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                TEDx is a program of local, self‑organized events that bring people together to share a TED‑like experience.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                At JU, we spotlight ideas from science, culture, and community that matter to Bangladesh.
               </p>
               <Button 
                 size="lg" 
@@ -124,7 +124,7 @@ const Home = () => {
                 <Star className="h-12 w-12 mb-4" />
                 <h3 className="text-2xl font-bold mb-4">Ideas Worth Spreading</h3>
                 <p className="text-lg">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Independent, volunteer‑run, powered by students and alumni.
                 </p>
               </div>
             </div>
@@ -139,7 +139,7 @@ const Home = () => {
             Ready to Be Part of Something Amazing?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Join us for an unforgettable experience of ideas worth spreading.
+            Be part of TEDx JU 2025 — volunteer, attend, and amplify ideas worth spreading.
           </p>
           <Button 
             size="lg" 

@@ -15,7 +15,7 @@ const About = () => {
             What is TEDx Jahangirnagar University?
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            TEDx JU is an independently organized TED event at Jahangirnagar University, celebrating local voices and global ideas.
           </p>
         </div>
       </section>
@@ -29,20 +29,20 @@ const About = () => {
                 About TEDx Program
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                TEDx is a program of local, self‑organized events that bring people together to share a TED‑like experience. At TEDx JU we host live speakers and performances.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Each talk is curated around a unifying theme and recorded to share with the world.
               </p>
               <p className="text-lg text-muted-foreground">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+                TED grants free licenses; content and production are fully organized by our volunteer team.
               </p>
             </div>
             <div className="bg-tedx-light-grey p-8 rounded-lg">
               <div className="text-center">
                 <div className="text-6xl font-bold text-tedx-red mb-4">TEDx</div>
                 <p className="text-lg text-muted-foreground">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  An initiative to surface ideas from JU — research, art, entrepreneurship, and social impact.
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-tedx-black mb-4">Our Mission & Vision</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We amplify compelling ideas from JU and beyond, connect communities, and inspire action.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ const About = () => {
                 <Target className="h-12 w-12 text-tedx-red mb-4" />
                 <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
                 <p className="text-muted-foreground">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  We create a platform where diverse voices share clear, actionable ideas that can create positive change.
                 </p>
               </CardContent>
             </Card>
@@ -76,7 +76,7 @@ const About = () => {
                 <Lightbulb className="h-12 w-12 text-tedx-red mb-4" />
                 <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
                 <p className="text-muted-foreground">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  A campus‑wide culture of curiosity where ideas cross disciplines and spark collaboration.
                 </p>
               </CardContent>
             </Card>
@@ -90,7 +90,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-tedx-black mb-4">What Makes TEDx JU Special</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              What makes TEDx JU special is the people who build it and the stories they bring to the stage.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ const About = () => {
                 <Users className="h-16 w-16 text-tedx-red mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Community Driven</h3>
                 <p className="text-muted-foreground">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Organized entirely by JU volunteers across curation, design, production, and partnerships.
                 </p>
               </CardContent>
             </Card>
@@ -110,7 +110,7 @@ const About = () => {
                 <Globe className="h-16 w-16 text-tedx-red mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Global Impact</h3>
                 <p className="text-muted-foreground">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Talks are filmed and shared online to reach audiences far beyond campus.
                 </p>
               </CardContent>
             </Card>
@@ -120,7 +120,7 @@ const About = () => {
                 <Lightbulb className="h-16 w-16 text-tedx-red mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Innovation</h3>
                 <p className="text-muted-foreground">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  We experiment with stagecraft, storytelling, and interactive experiences.
                 </p>
               </CardContent>
             </Card>
@@ -134,14 +134,14 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">TEDx by Numbers</h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              A snapshot of the TEDx movement and our campus ambition in 2025.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-5xl font-bold text-tedx-red mb-2">50+</div>
-              <p className="text-gray-300">Lorem Ipsum</p>
+              <p className="text-gray-300">Local volunteers</p>
             </div>
             <div>
               <div className="text-5xl font-bold text-tedx-red mb-2">1000+</div>

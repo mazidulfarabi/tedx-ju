@@ -16,7 +16,7 @@ const Registration = () => {
             Coming Soon
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Registration will open soon!
+            Registration opens soon — sign up for updates and early announcements.
           </p>
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur rounded-full px-6 py-3">
             <Clock className="h-5 w-5" />
@@ -31,7 +31,7 @@ const Registration = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-tedx-black mb-4">Event Information</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Here’s what to expect for TEDx JU 2025 — dates, venue, and capacity details.
             </p>
           </div>
 
@@ -77,7 +77,7 @@ const Registration = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-tedx-black mb-4">Registration Categories</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Choose the category that fits you; pricing and full details will be announced.
             </p>
           </div>
 
@@ -95,15 +95,15 @@ const Registration = () => {
                 <ul className="space-y-3 mb-8 text-left">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Lorem ipsum dolor</span>
+                    <span className="text-sm">JU student priority access</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Consectetur adipiscing</span>
+                    <span className="text-sm">Campus‑only session</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Sed do eiusmod</span>
+                    <span className="text-sm">Digital program guide</span>
                   </li>
                 </ul>
                 <Button className="w-full bg-tedx-red hover:bg-tedx-red-dark" disabled>
@@ -128,19 +128,19 @@ const Registration = () => {
                 <ul className="space-y-3 mb-8 text-left">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Lorem ipsum dolor</span>
+                    <span className="text-sm">Full event access</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Consectetur adipiscing</span>
+                    <span className="text-sm">Speaker Q&A (limited)</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Sed do eiusmod</span>
+                    <span className="text-sm">Coffee breaks & swag</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Tempor incididunt</span>
+                    <span className="text-sm">Certificate of attendance</span>
                   </li>
                 </ul>
                 <Button className="w-full bg-tedx-red hover:bg-tedx-red-dark" disabled>
@@ -162,23 +162,23 @@ const Registration = () => {
                 <ul className="space-y-3 mb-8 text-left">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Lorem ipsum dolor</span>
+                    <span className="text-sm">Premium seating</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Consectetur adipiscing</span>
+                    <span className="text-sm">Green‑room meet & greet</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Sed do eiusmod</span>
+                    <span className="text-sm">Exclusive merch pack</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Tempor incididunt</span>
+                    <span className="text-sm">Catered lounge access</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500" />
-                    <span className="text-sm">Ut labore et dolore</span>
+                    <span className="text-sm">Priority entry</span>
                   </li>
                 </ul>
                 <Button className="w-full bg-tedx-red hover:bg-tedx-red-dark" disabled>
@@ -196,7 +196,7 @@ const Registration = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-tedx-black mb-4">Important Information</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Key notes about tickets, entry, and attendee policies.
             </p>
           </div>
 
@@ -208,7 +208,7 @@ const Registration = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Registration Requirements</h3>
                     <p className="text-muted-foreground">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Bring a valid photo ID; student tickets require JU ID at entry.
                     </p>
                   </div>
                 </div>
@@ -222,7 +222,7 @@ const Registration = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Cancellation Policy</h3>
                     <p className="text-muted-foreground">
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Tickets are non‑refundable; transfers may be allowed before the deadline.
                     </p>
                   </div>
                 </div>
@@ -236,7 +236,7 @@ const Registration = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">What to Bring</h3>
                     <p className="text-muted-foreground">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      Your ticket QR, ID, notebook, and curiosity.
                     </p>
                   </div>
                 </div>
@@ -250,7 +250,7 @@ const Registration = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Contact Support</h3>
                     <p className="text-muted-foreground">
-                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.
+                      For questions, email tedx@juniv.edu or message our Facebook page.
                     </p>
                   </div>
                 </div>
@@ -267,7 +267,7 @@ const Registration = () => {
             Get Notified When Registration Opens
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Be the first to know when registration opens.
+            Get an email when registration opens and when we announce the theme.
           </p>
           <div className="max-w-md mx-auto flex gap-4">
             <input
