@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, Youtube, Mail } from "lucide-react";
+import { Facebook, Twitter, Instagram, Youtube, Mail, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a href="https://www.linkedin.com/company/tedx-jahangirnagar-university/" className="text-gray-300 hover:text-tedx-red transition-colors">
-                <LinkedIn className="h-5 w-5" />
+                <Linkedin className="h-5 w-5" />
               </a>
               <a href="https://www.instagram.com/tedx_ju/" className="text-gray-300 hover:text-tedx-red transition-colors">
                 <Instagram className="h-5 w-5" />

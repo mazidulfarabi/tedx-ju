@@ -137,6 +137,49 @@ const About = () => {
         </div>
       </section>
 
+      {/* FAQ Images */}
+      <section className="py-20 bg-tedx-light-grey">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-tedx-black mb-4">Frequently Asked Questions</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Get answers to common questions about TEDx JU events and participation.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img 
+                src="/faq1.jpg" 
+                alt="FAQ 1" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img 
+                src="/faq2.jpg" 
+                alt="FAQ 2" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img 
+                src="/faq3.jpg" 
+                alt="FAQ 3" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img 
+                src="/faq4.jpg" 
+                alt="FAQ 4" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Statistics */}
       <section className="py-20 bg-tedx-black text-white">
         <div className="container mx-auto px-4">
