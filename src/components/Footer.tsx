@@ -17,17 +17,14 @@ const Footer = () => {
               TEDx JU is an independently organized event at Jahangirnagar University, led by volunteers to share ideas worth spreading.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-tedx-red transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61577137555120" className="text-gray-300 hover:text-tedx-red transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-tedx-red transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a href="https://www.linkedin.com/company/tedx-jahangirnagar-university/" className="text-gray-300 hover:text-tedx-red transition-colors">
+                <LinkedIn className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-tedx-red transition-colors">
+              <a href="https://www.instagram.com/tedx_ju/" className="text-gray-300 hover:text-tedx-red transition-colors">
                 <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-tedx-red transition-colors">
-                <Youtube className="h-5 w-5" />
               </a>
             </div>
           </div>
