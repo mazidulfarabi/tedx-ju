@@ -109,7 +109,7 @@ const About = () => {
                 <Users className="h-16 w-16 text-tedx-red mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Community Driven</h3>
                 <p className="text-muted-foreground">
-                  Organized entirely by JU volunteers across curation, design, production, and partnerships.
+                  Organized entirely by JU students across curation, design, and production.
                 </p>
               </CardContent>
             </Card>
