@@ -259,7 +259,7 @@ const Registration = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Contact Support</h3>
                     <p className="text-muted-foreground">
-                      For questions, email tedx@juniv.edu or message our Facebook page.
+                      For questions, email tedx.juniv@gmail.com or message our Facebook page.
                     </p>
                   </div>
                 </div>
