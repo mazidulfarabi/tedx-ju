@@ -30,7 +30,15 @@ const Blog = () => {
 
   const categories = useMemo(() => {
     const cats = Array.from(new Set(posts.map((p) => p.category)));
-    return ["All", ...cats];
+    // Reorder categories: put "Insights" after "Behind the Scenes"
+    const reorderedCats = cats.filter(cat => cat !== "Insights");
+    const behindTheScenesIndex = reorderedCats.indexOf("Behind the Scenes");
+    if (behindTheScenesIndex !== -1) {
+      reorderedCats.splice(behindTheScenesIndex + 1, 0, "Insights");
+    } else {
+      reorderedCats.push("Insights");
+    }
+    return ["All", ...reorderedCats];
   }, [posts]);
 
   const filtered = useMemo(() => {
@@ -81,7 +89,7 @@ const Blog = () => {
       </section>
 
       {/* Featured */}
-      {featured && (
+      {featured && selected !== "All" && (
         <section className="py-20 bg-background">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
@@ -123,53 +131,55 @@ const Blog = () => {
         </section>
       )}
 
-      {/* Grid */}
-      <section className="py-20 bg-tedx-light-grey">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-tedx-black mb-4">Latest Posts</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Explore announcements, stories, and insights from our team.
-            </p>
-          </div>
+      {/* Grid - Only show for "All" category */}
+      {selected === "All" && (
+        <section className="py-20 bg-tedx-light-grey">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-tedx-black mb-4">Latest Posts</h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Explore announcements, stories, and insights from our team.
+              </p>
+            </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {rest.map((post) => (
-              <Card key={post.id} className="overflow-hidden hover:shadow-[var(--shadow-card)] transition-all duration-300">
-                <div className="relative">
-                  <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
-                  <Badge className="absolute top-4 left-4 bg-tedx-red text-white text-xs">{post.category}</Badge>
-                </div>
-                <CardContent className="p-6">
-                  <div className="flex items-center gap-3 text-xs text-muted-foreground mb-3">
-                    <div className="flex items-center gap-1">
-                      <Calendar className="h-3 w-3" />
-                      {post.date}
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <Clock className="h-3 w-3" />
-                      {post.readTime}
-                    </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {rest.map((post) => (
+                <Card key={post.id} className="overflow-hidden hover:shadow-[var(--shadow-card)] transition-all duration-300">
+                  <div className="relative">
+                    <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
+                    <Badge className="absolute top-4 left-4 bg-tedx-red text-white text-xs">{post.category}</Badge>
                   </div>
-                  <h3 className="text-lg font-bold mb-2 line-clamp-2">{post.title}</h3>
-                  <p className="text-muted-foreground text-sm mb-4 line-clamp-3">{post.excerpt}</p>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                      <User className="h-3 w-3" />
-                      {post.author}
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-3 text-xs text-muted-foreground mb-3">
+                      <div className="flex items-center gap-1">
+                        <Calendar className="h-3 w-3" />
+                        {post.date}
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Clock className="h-3 w-3" />
+                        {post.readTime}
+                      </div>
                     </div>
-                    <Button asChild size="sm" variant="ghost" className="text-tedx-red hover:text-tedx-red-dark p-0">
-                      <Link to={`/blog/${post.slug}`}>
-                        Read More <ArrowRight className="ml-1 h-3 w-3" />
-                      </Link>
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+                    <h3 className="text-lg font-bold mb-2 line-clamp-2">{post.title}</h3>
+                    <p className="text-muted-foreground text-sm mb-4 line-clamp-3">{post.excerpt}</p>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                        <User className="h-3 w-3" />
+                        {post.author}
+                      </div>
+                      <Button asChild size="sm" variant="ghost" className="text-tedx-red hover:text-tedx-red-dark p-0">
+                        <Link to={`/blog/${post.slug}`}>
+                          Read More <ArrowRight className="ml-1 h-3 w-3" />
+                        </Link>
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Newsletter */}
       <section className="py-20 bg-tedx-black text-white">

@@ -70,7 +70,7 @@ const Footer = () => {
               <p>Bangladesh</p>
               <div className="flex items-center space-x-2 mt-4">
                 <Mail className="h-4 w-4" />
-                <span>tedx@juniv.edu</span>
+                <span>tedx.juniv@gmail.com</span>
               </div>
             </div>
           </div>
