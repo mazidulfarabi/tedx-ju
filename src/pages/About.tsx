@@ -1,10 +1,19 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Lightbulb, Users, Globe, Target } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const About = () => {
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO 
+        title="About TEDx Jahangirnagar University"
+        description="Learn about TEDx JU - an independently organized TED event at Jahangirnagar University celebrating local voices and global ideas. Discover our mission, vision, and what makes us special."
+        keywords="TEDx JU about, TEDx program, Jahangirnagar University, mission vision, local voices, global ideas, TEDx events, university community, innovation platform"
+        url="https://tedx-ju.netlify.app/about"
+        type="website"
+      />
+      <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-tedx-red to-tedx-red-dark text-white">
         <div className="container mx-auto px-4 text-center">
@@ -141,24 +150,25 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-5xl font-bold text-tedx-red mb-2">50+</div>
-              <p className="text-gray-300">Local volunteers</p>
+              <p className="text-gray-300">Organising Members</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-tedx-red mb-2">1000+</div>
-              <p className="text-gray-300">Dolor Sit</p>
+              <div className="text-5xl font-bold text-tedx-red mb-2">10,000+</div>
+              <p className="text-gray-300">Interested Audience</p>
             </div>
             <div>
               <div className="text-5xl font-bold text-tedx-red mb-2">25+</div>
-              <p className="text-gray-300">Consectetur</p>
+              <p className="text-gray-300">Advisors</p>
             </div>
             <div>
               <div className="text-5xl font-bold text-tedx-red mb-2">100%</div>
-              <p className="text-gray-300">Adipiscing</p>
+              <p className="text-gray-300">Hype</p>
             </div>
           </div>
         </div>
       </section>
     </div>
+    </>
   );
 };
 

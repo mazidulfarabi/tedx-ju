@@ -3,10 +3,19 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Calendar, MapPin, Users, Star } from "lucide-react";
 import { Link } from "react-router-dom";
+import SEO from "@/components/SEO";
 
 const Home = () => {
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO 
+        title="TEDx Jahangirnagar University - Ideas Worth Spreading"
+        description="Join TEDx Jahangirnagar University for inspiring talks, performances, and ideas. Experience a day of innovation and thought leadership at JU Campus, Savar, Dhaka. Register now for Season 2025."
+        keywords="TEDx, Jahangirnagar University, JU, TEDx JU, Savar, Dhaka, Bangladesh, ideas worth spreading, innovation, leadership, education, university events, TED talks, speakers, performances, registration"
+        url="https://tedx-ju.netlify.app/"
+        type="website"
+      />
+      <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
@@ -153,6 +162,7 @@ const Home = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

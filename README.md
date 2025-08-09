@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# TEDx JU
 
-## Project info
+A modern web application for TEDx JU (Jordan University) events, built with React and TypeScript.
 
-**URL**: https://lovable.dev/projects/3a318adf-6b75-4408-9a8d-f75fbc7ad242
+## About
 
-## How can I edit this code?
+TEDx JU is a platform that showcases TEDx events organized by Jordan University. This application provides information about upcoming events, team members, blog posts, and registration capabilities.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Home Page**: Landing page with event highlights and key information
+- **About**: Information about TEDx JU and its mission
+- **Team**: Meet the organizing committee and advisors
+- **Blog**: Read articles and updates about TEDx events
+- **Registration**: Event registration and ticketing
+- **Responsive Design**: Mobile-first approach with modern UI components
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3a318adf-6b75-4408-9a8d-f75fbc7ad242) and start prompting.
+## Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Routing**: React Router
+- **Development**: ESLint, PostCSS
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (version 18 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+cd tedx-ju
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── data/          # Static data (team, blogs)
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions
+└── main.tsx       # Application entry point
+```
 
-This project is built with:
+## Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/3a318adf-6b75-4408-9a8d-f75fbc7ad242) and click on Share -> Publish.
+This project is licensed under the MIT License.
 
-## Can I connect a custom domain to my Lovable project?
+## Contact
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For questions or support, please contact the TEDx JU organizing team.

@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar, User, ArrowRight, Clock } from "lucide-react";
 import data from "@/data/blogs.json";
+import SEO from "@/components/SEO";
 
 type Blog = {
   id: number;
@@ -40,7 +41,15 @@ const Blog = () => {
   const rest = filtered.slice(1);
 
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO 
+        title="TEDx JU Blog - Updates, Stories, Insights"
+        description="Stay updated with TEDx Jahangirnagar University! Read our latest blog posts featuring announcements, spotlights, and behind-the-scenes stories from our community."
+        keywords="TEDx JU blog, TEDx Jahangirnagar University updates, university blog, community stories, event announcements, behind the scenes, TEDx news"
+        url="https://tedx-ju.netlify.app/blog"
+        type="website"
+      />
+      <div className="min-h-screen">
       {/* Hero */}
       <section className="py-20 bg-gradient-to-br from-tedx-red to-tedx-red-dark text-white">
         <div className="container mx-auto px-4 text-center">
@@ -175,8 +184,9 @@ const Blog = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
-};
-
-export default Blog;
+          </div>
+    </>
+    );
+  };
+  
+  export default Blog;

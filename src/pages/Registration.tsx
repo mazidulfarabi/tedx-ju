@@ -1,11 +1,20 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, Users, Clock, CheckCircle, AlertCircle } from "lucide-react";
 
 const Registration = () => {
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO 
+        title="Register for TEDx Jahangirnagar University 2025"
+        description="Secure your spot at TEDx JU 2025! Register now for an inspiring day of talks, performances, and ideas at Jahangirnagar University Campus, Savar, Dhaka."
+        keywords="TEDx JU registration, TEDx Jahangirnagar University 2025, event registration, university events, Savar Dhaka, ideas worth spreading, speaker registration, attendee registration"
+        url="https://tedx-ju.netlify.app/registration"
+        type="website"
+      />
+      <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-tedx-red to-tedx-red-dark text-white">
         <div className="container mx-auto px-4 text-center">
@@ -284,8 +293,9 @@ const Registration = () => {
           </p>
         </div>
       </section>
-    </div>
-  );
-};
-
-export default Registration;
+          </div>
+    </>
+    );
+  };
+  
+  export default Registration;

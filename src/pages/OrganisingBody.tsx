@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import team from "@/data/team.json";
+import SEO from "@/components/SEO";
 
 const OrganisingBody = () => {
   const executives = (team as any).executives as string[];
@@ -23,7 +24,15 @@ const OrganisingBody = () => {
   );
 
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO 
+        title="Organising Body - TEDx Jahangirnagar University"
+        description="Meet the dedicated team behind TEDx Jahangirnagar University. Learn about our organizers, advisors, and volunteers who make this inspiring event possible."
+        keywords="TEDx JU team, organizing body, event organizers, volunteers, advisors, Jahangirnagar University, TEDx committee, event management team"
+        url="https://tedx-ju.netlify.app/organising-body"
+        type="website"
+      />
+      <div className="min-h-screen">
       {/* Hero */}
       <section className="py-20 bg-gradient-to-br from-tedx-red to-tedx-red-dark text-white">
         <div className="container mx-auto px-4 text-center">
@@ -76,8 +85,9 @@ const OrganisingBody = () => {
           </p>
         </div>
       </section>
-    </div>
-  );
-};
-
-export default OrganisingBody;
+          </div>
+    </>
+    );
+  };
+  
+  export default OrganisingBody;
