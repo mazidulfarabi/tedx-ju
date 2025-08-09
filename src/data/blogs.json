@@ -2,82 +2,88 @@
   "posts": [
     {
       "id": 1,
-      "slug": "announcing-tedx-ju-2025",
-      "title": "Announcing TEDx Jahangirnagar University 2025",
-      "excerpt": "We’re bringing TEDx back to Jahangirnagar University with a day of ideas, connection, and inspiration.",
-      "date": "March 15, 2025",
-      "author": "TEDx JU Team",
-      "category": "Event Updates",
+      "slug": "who-gets-to-decide-whats-normal",
+      "title": "Who Gets to Decide What's Normal?",
+      "excerpt": "Challenging the conventions that shape our world and questioning who holds the power to define what's considered 'normal'.",
+      "date": "March 20, 2025",
+      "author": "Creativity & Content Team, TEDx JU",
+      "category": "Insights",
       "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1200&h=800&fit=crop",
-      "readTime": "5 min read",
+      "readTime": "4 min read",
       "content": [
-        "TEDx Jahangirnagar University is an independently organized TED event created by a team of JU volunteers. Our mission is to spotlight bold, original ideas from Bangladesh and beyond.",
-        "The 2025 edition will feature live talks, performances, and conversations that spark curiosity and action. Whether you’re a student, alumnus, researcher, or creator — there’s a place for your ideas at TEDx JU.",
-        "Follow our channels for speaker announcements, theme reveal, and registration details. See you on campus!"
+        "Imagine a fish judging a bird for flying. Sounds silly, right? But that's exactly what we do when we try to define 'normal.' We build boxes which are perfectly shaped, labeled, painted with rules, and then expect everyone to fit inside. Too quiet? Weird. Too loud? Problem. Too different? Fix it.",
+        "But here's the thing, 'normal' isn't the truth, it's a habit. A pattern which has been passed down. Most of the time, the people who sit in big chairs, or write the history books decide what's normal. And we just follow along, scared to ask, 'Why?'",
+        "But what if 'normal' is just the most popular opinion, not the most correct one? Every rebel, artist, misfit, and thinker who ever broke the pattern started with this one brave thought, 'What if the rule is wrong?'",
+        "So maybe it's time we stop trying to fit in and start asking better questions. Because the moment we challenge 'normal,' we open the door to something much more powerful."
       ]
     },
     {
       "id": 2,
-      "slug": "speaker-spotlight-voices-shaping-tomorrow",
-      "title": "Speaker Spotlight: Voices Shaping Tomorrow",
-      "excerpt": "A first look at the kinds of voices and stories we’re curating for TEDx JU 2025.",
-      "date": "March 10, 2025",
-      "author": "Curations Team",
-      "category": "Speaker Spotlight",
+      "slug": "is-art-still-revolutionary-or-just-aesthetic",
+      "title": "Is Art Still Revolutionary, or Just Aesthetic Now?",
+      "excerpt": "From gallery walls to protest streets: How art continues to challenge power and speak truth in our modern world.",
+      "date": "March 18, 2025",
+      "author": "Creativity & Content Team, TEDx JU",
+      "category": "Culture",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=800&fit=crop",
       "readTime": "3 min read",
       "content": [
-        "From science and social innovation to culture and creative arts, TEDx JU brings together a wide range of perspectives.",
-        "Our curation focuses on ideas with clarity, novelty, and relevance to our community.",
-        "Stay tuned for speaker reveals and stories behind the talks."
+        "During the July protests in Bangladesh, the streets turned into canvases. Students painted bold graffiti on walls, flyovers, roads and buses. Their messages were loud and clear: 'Roktakto July', 'Killer Hasina', 'Awaj Uda', 'Pani Lagbe? Pani?' These weren't art for galleries. These were anger. These were grief. This was the truth.",
+        "In a world where art often feels like soft background music, these graffiti screamed. They didn't care about symmetry or aesthetics. They were raw. Messy. Brave. And most importantly, real.",
+        "So yes, art is still revolutionary. It just looks different now. Maybe it's not always in museums, but it's there. In broken walls. In bold words. In messy strokes that carry powerful truths.",
+        "Art doesn't just decorate. It defends, it resists, and sometimes it even helps bring change. When voices are silenced, art shouts. And in that July heat, it shouted loud enough to shake a regime."
       ]
     },
     {
       "id": 3,
-      "slug": "behind-the-scenes-building-tedx-ju",
-      "title": "Behind the Scenes: Building TEDx JU",
-      "excerpt": "How our all‑volunteer team turns an idea into a full TEDx experience.",
-      "date": "March 5, 2025",
-      "author": "Organizing Team",
-      "category": "Behind the Scenes",
+      "slug": "what-makes-jahangirnagar-more-than-just-a-campus",
+      "title": "What Makes Jahangirnagar More Than Just a Campus?",
+      "excerpt": "Discover why Jahangirnagar University stands as a beacon of intellect, culture, and dreams beyond traditional education.",
+      "date": "March 15, 2025",
+      "author": "Creativity & Content Team, TEDx JU",
+      "category": "Community",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&h=800&fit=crop",
-      "readTime": "7 min read",
+      "readTime": "3 min read",
       "content": [
-        "Months of planning go into venue design, storytelling, partnerships, and technology.",
-        "Every detail — from stage lighting to on‑site experience — is crafted to elevate ideas worth spreading.",
-        "If you love building experiences, consider volunteering with us."
+        "Jahangirnagar University stands proud not only as a cluster of educational institutions but also as a home to thousands of young undergraduates. Situated in Savar, Jahangirnagar University is more than a mere campus. It's a pulse of intellect, culture, discovery, creativity, and possibility.",
+        "It is an escape from the bustle of city life for its serene landscape and beautiful surroundings. But the real beauty lies in its people. Their passion and enthusiasm for research, social activism, and cultural practice shape an extraordinary mixture of potential and brilliance.",
+        "This passion with a strong sense of purpose, unshakable unity among the students and a nature's embrace that almost feels like a home - it all turns Jahangirnagar into a land of dreams."
       ]
     },
     {
       "id": 4,
-      "slug": "our-community-our-stories",
-      "title": "Our Community, Our Stories",
-      "excerpt": "Why TEDx matters at Jahangirnagar University and beyond.",
-      "date": "February 28, 2025",
-      "author": "Community Team",
-      "category": "Community",
+      "slug": "three-strategies-for-thriving-on-campus",
+      "title": "3 Strategies for Thriving on Campus",
+      "excerpt": "Campus life is your launchpad. Here's how to not just survive, but truly thrive during your university journey.",
+      "date": "March 12, 2025",
+      "author": "Creativity & Content Team, TEDx JU",
+      "category": "Student Life",
       "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=1200&h=800&fit=crop",
       "readTime": "4 min read",
       "content": [
-        "TEDx JU is where students, faculty, alumni, and neighbors meet to explore ideas that move us forward.",
-        "It’s more than an event — it’s a platform for meaningful dialogue and collaboration.",
-        "Bring your curiosity, and invite a friend." 
+        "Campus life is more than just classes and deadlines. It's a launchpad for who you're becoming. Here are three sharp strategies to help you not just survive, but thrive:",
+        "1. Own Your Time: Balance is a myth without boundaries. Use planners, apps, or plain old sticky notes–whatever helps you take control of your day before it takes control of you.",
+        "2. Build Your Circle: Surround yourself with people who challenge, inspire, and support you. Clubs, group projects, and random dorm conversations are where the real learning begins.",
+        "3. Say Yes (and No): Opportunities are everywhere, but not all of them are yours to take. Say yes to growth, no to burnout, and always check in with what actually fuels you.",
+        "Thriving on campus isn't about doing everything. It's about doing what matters, with purpose."
       ]
     },
     {
       "id": 5,
-      "slug": "how-to-prepare-for-a-tedx-talk",
-      "title": "How to Prepare for a TEDx Talk",
-      "excerpt": "Practical tips for framing, refining, and delivering your idea worth spreading.",
-      "date": "February 20, 2025",
-      "author": "Speaker Coaching",
-      "category": "Insights",
+      "slug": "our-journey-from-question-to-tedx-license",
+      "title": "Our Journey: From Question to TEDx License",
+      "excerpt": "The story behind TEDx JU - how curiosity, determination, and late-night research turned 'Why not JU?' into reality.",
+      "date": "March 8, 2025",
+      "author": "Creativity & Content Team, TEDx JU",
+      "category": "Behind the Scenes",
       "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=1200&h=800&fit=crop",
-      "readTime": "6 min read",
+      "readTime": "5 min read",
       "content": [
-        "Start with a single, clear idea. Focus your story around why it matters now.",
-        "Use concrete examples, avoid jargon, and practice with honest feedback.",
-        "Rehearse for timing and attention — simplicity is powerful."
+        "Every journey starts with a question. Ours was simple: 'Why not JU?' Curiosity sparked it all. TEDx was everywhere but never in JU. So we asked the obvious: What's stopping us?",
+        "Determined to build, not wait, instead of waiting for someone else to bring it, we decided to be the ones to do it. Late-night Google dives and endless research followed. From 'how to get a TEDx license' to figuring out TED rules, we dove into red dots.",
+        "The license hustle began. We crafted our story, our why, and applied for the TEDx license, knowing this was just the beginning. TEDxJU got licensed - that red stamp wasn't just approval. It was liftoff.",
+        "Recruitment went LIVE. We needed a team bold enough to believe. So we called out and change-makers answered. From the first general meeting in Zoom rooms to brainstorming boards, the TEDxJU team came together. Our official page journey began - TEDxJU finally had a voice and we were ready to speak and listen to YOU.",
+        "This is our 'before.' What's coming next? You'll have to stay tuned."
       ]
     }
   ]

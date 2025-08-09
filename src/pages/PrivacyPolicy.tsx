@@ -191,7 +191,7 @@ const PrivacyPolicy = () => {
                     </p>
                     <div className="bg-tedx-light-grey p-6 rounded-lg">
                       <p className="text-muted-foreground mb-2">
-                        <strong>Email:</strong> tedx@juniv.edu
+                        <strong>Email:</strong> tedx.juniv@gmail.com
                       </p>
                       <p className="text-muted-foreground mb-2">
                         <strong>Address:</strong> Jahangirnagar University, Savar, Dhaka-1342, Bangladesh
