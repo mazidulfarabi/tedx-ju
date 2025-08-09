@@ -180,6 +180,47 @@ const About = () => {
         </div>
       </section>
 
+      {/* License and TED Website */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-tedx-black mb-4">Official TEDx License</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              TEDx JU operates under an official license from TED, ensuring we follow the highest standards of quality and authenticity.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+            <div className="text-center lg:text-left">
+              <h3 className="text-2xl font-bold text-tedx-black mb-4">Find Us on TED.com</h3>
+              <p className="text-muted-foreground mb-6">
+                Visit our official TEDx event page to learn more about our upcoming event "Threads of Change" on September 20, 2025, and stay updated with the latest information.
+              </p>
+              <a 
+                href="https://www.ted.com/tedx/events/64697" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-8 py-4 bg-tedx-red text-white font-semibold rounded-lg hover:bg-tedx-red-dark transition-colors duration-300 shadow-lg hover:shadow-xl"
+              >
+                Find Us on TED Website
+                <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+            <div className="flex justify-center lg:justify-end">
+              <div className="max-w-md">
+                <img 
+                  src="/license.jpeg" 
+                  alt="TEDx JU Official License" 
+                  className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Statistics */}
       <section className="py-20 bg-tedx-black text-white">
         <div className="container mx-auto px-4">
